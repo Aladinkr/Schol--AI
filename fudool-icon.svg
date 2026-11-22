@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="#3478e5"/>
+  <path d="M32 8l5 8 9 2-6 7 1 9-9-4-9 4 1-9-6-7 9-2z" fill="#ffe16a"/>
+  <text x="32" y="51" fill="#fff" font-family="Tahoma, sans-serif" font-size="16" font-weight="700" text-anchor="middle" direction="rtl" unicode-bidi="bidi-override">فُضول</text>
+</svg>
