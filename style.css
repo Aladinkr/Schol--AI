@@ -1095,10 +1095,3 @@ body[data-theme="teen"] .primary-game-button { background: linear-gradient(#9b73
 .mastery-row small { grid-column: 1 / -1; color: #596781; }
 .mastery-bar { background: #e6ecf7; border-radius: 999px; height: 16px; overflow: hidden; }
 .mastery-bar i { background: linear-gradient(90deg, #ffb400, #35b58f); display: block; height: 100%; }
-.zippy-avatar.walk { animation: zippy-bob 0.4s infinite; }
-.zippy-avatar.run  { animation: zippy-bob 0.22s infinite; }
-
-@keyframes zippy-bob {
-    0%, 100% { translate: 0 0; }
-    50%      { translate: 0 -5px; }
-}

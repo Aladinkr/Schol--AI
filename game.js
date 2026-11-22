@@ -2047,12 +2047,3 @@ function drawFinishFlag(ctx) {
 
 
 document.querySelectorAll("[data-pick]").forEach(button => button.addEventListener("click", () => setLevel(button.dataset.pick)));
-const spriteName = pose === "land" ? "idle" : pose;
-const spriteSource = `assets/zippy-${spriteName}.png`;
-if (avatar.getAttribute("src") !== spriteSource) avatar.setAttribute("src", spriteSource);
-
-// ADD THESE TWO LINES:
-avatar.classList.toggle("walk", pose === "walk");
-avatar.classList.toggle("run", pose === "run");
-
-avatar.style.left = `${((player.x - game.cameraX - 18) / WIDTH) * 100}%`;
